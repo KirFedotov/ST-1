@@ -28,11 +28,11 @@ TEST(tests, nPrime_inval) {
 }
 
 TEST(tests, nextPrime_val) {
-  EXPECT_EQ(nPrime(14), 17);
+  EXPECT_EQ(nextPrime(14), 17);
 }
 
 TEST(tests, nextPrime_inval) {
-  EXPECT_NE(nPrime(11), 12);
+  EXPECT_NE(nextPrime(11), 12);
 }
 
 TEST(tests, sumPrime_val) {
