@@ -40,11 +40,11 @@ TEST(tests, sumPrime_val) {
 }
 
 
-TEST(tests, sumPrime_inval) {
+TEST(tests, sumPrime_inval_1) {
   EXPECT_NE(sumPrime(17), 58);
 }
 
-TEST(tests, sumPrime_inval) {
+TEST(tests, sumPrime_inval_2) {
   EXPECT_NE(sumPrime(17), 68);
 }
 
