@@ -20,7 +20,7 @@ TEST(tests, checkPrime_inval_3) {
 }
 
 TEST(tests, nPrime_val) {
-  EXPECT_EQ(nPrime(5), 3);
+  EXPECT_EQ(nPrime(3), 5);
 }
 
 TEST(tests, nPrime_inval) {
@@ -28,7 +28,7 @@ TEST(tests, nPrime_inval) {
 }
 
 TEST(tests, nextPrime_val) {
-  EXPECT_EQ(nPrime(11), 13);
+  EXPECT_EQ(nPrime(14), 17);
 }
 
 TEST(tests, nextPrime_inval) {
@@ -49,7 +49,7 @@ TEST(tests, sumPrime_inval_2) {
 }
 
 TEST(tests, task_2) {
-  EXPECT_NE(sumPrime(2000000), 142913828922);
+  EXPECT_EQ(sumPrime(2000000), 142913828922);
 }
 
 
