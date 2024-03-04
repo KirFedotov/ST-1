@@ -39,8 +39,13 @@ TEST(tests, sumPrime_val){
   EXPECT_EQ(sumPrime(17),41);
 }
 
+
 TEST(tests, sumPrime_inval){
   EXPECT_NE(sumPrime(17),58);
+}
+
+TEST(tests, sumPrime_inval){
+  EXPECT_NE(sumPrime(17),68);
 }
 
 TEST(tests, task_2){
